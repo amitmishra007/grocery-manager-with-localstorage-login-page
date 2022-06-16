@@ -21,7 +21,7 @@ inputContainer.addEventListener("submit", (e) => {
     userObject.email === emailValue &&
     userObject.phone === phoneValue
   ) {
-    window.location = "./grocery.html";
+    window.location = "./HTML-Creation-using-JS/JS-created-html.html";
   } else {
     console.log("Login Failed, Please Sign Up");
     alert("Login Failed, Please Sign Up");
